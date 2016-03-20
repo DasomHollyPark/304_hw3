@@ -5,7 +5,7 @@ where <filename> is the name of the file containing the Decaf program.
 """
 import sys
 import getopt
-
+import ast
 import decafparser
 
 class Usage(Exception):
